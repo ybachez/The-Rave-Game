@@ -3,7 +3,7 @@
 
 from sys import exit
 
-#1.1 if yes, then go here
+#if yes, then go here
 
 def raven():
     print "The door swings open, in the darkness appeared a Raven above the chamber door."
@@ -19,7 +19,7 @@ def raven():
         end("The Raven flies out the open window so you can go back to bed.")
     else:
         start()
-#1.3 if no, then go here
+#if no, then go here
 
 def demon():
     print "You ignore the Raven and go back to napping."
@@ -52,7 +52,7 @@ def end(why):
     exit(0)
 
 
-#1. start here
+#start here
 
 def start():
     print "Once upon a midnight dreary, there was a tapping at the chamber door."
